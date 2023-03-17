@@ -15,8 +15,8 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "أحمد خالد | Ahmed Khaled Blog"
-  description = "Description Empty"
-  keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
+  description = "Welcome to Ahmed Khaled's personal website! I am a data engineer and machine learning enthusiast with a passion for solving real-world problems through technolog    y. On my website, you will find my portfolio of projects, as well as my thoughts and insights on the latest developments in the tech industry. Thank you for visiting, and I hop    e you enjoy your stay!"
+  keyword = [ "Software engineering", "Machine learning", "Artificial intelligence" , "Data science", "Computer science", "Programming", "Algorithms", "Deep learning", "Neural n    etworks", "Data analysis" ]
   slogan = "路在脚下，心向远方"
 
   image_404 = "img/404-bg.jpg"
