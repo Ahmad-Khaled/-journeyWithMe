@@ -17,10 +17,9 @@ home = ["HTML", "RSS", "Algolia"]
   SEOTitle = "أحمد خالد | Ahmed Khaled Blog"
   description = "Welcome to Ahmed Khaled's personal website! I am a data engineer and machine learning enthusiast with a passion for solving real-world problems through technolog    y. On my website, you will find my portfolio of projects, as well as my thoughts and insights on the latest developments in the tech industry. Thank you for visiting, and I hop    e you enjoy your stay!"
   keyword = [ "Software engineering", "Machine learning", "Artificial intelligence" , "Data science", "Computer science", "Programming", "Algorithms", "Deep learning", "Neural n    etworks", "Data analysis" ]
-  slogan = "路在脚下，心向远方"
 
   image_404 = "img/404-bg.jpg"
-  title_404 = "你来到了没有知识的荒原 :("
+  title_404 = "Too sad, the page is not found :("
   omit_categories = false
 
   # leancloud storage for page view counter
