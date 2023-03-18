@@ -67,15 +67,15 @@ home = ["HTML", "RSS", "Algolia"]
 
   [params.social]
   rss            = true 
-  email          = "youremail@gmail.com"
+  email          = "akhaledmetwally@gmail.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
   linkedin       = "https://www.linkedin.com/in/ahmedkhalled/"
-  stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  # stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
-  github         = "https://github.com/yourgithub"
-  wechat         = "your wechat qr code image"
+  github         = "https://github.com/Ahmad-Khaled"
+  # wechat         = "your wechat qr code image"
   #medium        = "full profile url in medium"
   #slack         = "full workspace url in slack"
   #pinterest     = "full profile url in pinterest"
@@ -90,18 +90,18 @@ home = ["HTML", "RSS", "Algolia"]
   title = "Linda的博客"
   href =  "https://zhaozhihan.com"
 
-  [[params.bookmark_link]]
-  title =  "Martin Fowler"
-  href =  "https://martinfowler.com"
-  [[params.bookmark_link]]
-  title = "ServiceMesher"
-  href =  "http://www.servicemesher.com"
-  [[params.bookmark_link]]
-  title =  "Pxhere"
-  href = "https://pxhere.com"
-  [[params.bookmark_link]]
-  title = "unsplash"
-  href = "https://unsplash.com"
+  # [[params.bookmark_link]]
+  # title =  "Martin Fowler"
+  # href =  "https://martinfowler.com"
+  # [[params.bookmark_link]]
+  # title = "ServiceMesher"
+  # href =  "http://www.servicemesher.com"
+  # [[params.bookmark_link]]
+  # title =  "Pxhere"
+  # href = "https://pxhere.com"
+  # [[params.bookmark_link]]
+  # title = "unsplash"
+  # href = "https://unsplash.com"
   
   [[params.addtional_menus]]
   title =  "ARCHIVE"
