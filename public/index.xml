@@ -17,7 +17,7 @@
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blog.akhaled.net/post/readme/</guid>
-      <description>Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme. It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme. These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster</description>
+      <description>Screenshots Home Post Search Disqus Wechat Pay &amp;amp; Alipay Quick Start Go to the directory where you have your Hugo site and run: $ mkdir themes $ cd themes $ git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git If your site is already a git project, you may want to choose to add the cleanwhite theme as a submodule to avoid messing up your existing git repository. $ mkdir themes $ git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite.git</description>
     </item>
     
     <item>
@@ -252,7 +252,8 @@ export HTTPS_PROXY=&amp;quot;http://127.0.0.1:3128/&amp;quot;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://blog.akhaled.net/about/</guid>
-      <description>About Me Huabing Zhao is a software architect, an Istio Member and an ONAP PTL. He has a solid experience in the information and telecommunication technology industry for more than 17 years. Throughout his career, he has built a number of large-scale, cross-country software systems, most of them are still running in production. He loves open source and has been contributing to various open source projects, he is a member</description>
+      <description>About Ahmed Khaled Hi there! I&amp;rsquo;m Ahmed Khaled, a software engineer and machine learning enthusiast with a passion for solving complex problems using technology.
+I&amp;rsquo;m currently in the process of starting my own personal blog, where I&amp;rsquo;ll be sharing my thoughts and experiences as a software engineer and machine learning enthusiast. I have a strong background in software development, with experience in a variety of languages and frameworks. I&amp;rsquo;m particularly interested in machine learning and artificial intelligence, and I enjoy exploring new ways to apply these technologies to solve real-world problems.</description>
     </item>
     
     <item>
