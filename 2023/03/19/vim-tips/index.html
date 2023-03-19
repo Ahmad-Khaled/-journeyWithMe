@@ -10,20 +10,20 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://blog.akhaled.net/img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="https://blog.akhaled.net/img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="/img/vim-adept.png">
+    <meta property="twitter:image" content="/img/vim-adept.png" />
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Vim Tips" />
+    <meta property="og:title" content="Vim Tips" />
+    <meta property="twitter:title" content="Vim Tips" />
     
 
     
-    <meta name="description" content="Welcome to Ahmed Khaled&#39;s personal website! I am a data engineer and machine learning enthusiast with a passion for solving real-world problems through technolog    y. On my website, you will find my portfolio of projects, as well as my thoughts and insights on the latest developments in the tech industry. Thank you for visiting, and I hop    e you enjoy your stay!">
-    <meta property="og:description" content="Welcome to Ahmed Khaled&#39;s personal website! I am a data engineer and machine learning enthusiast with a passion for solving real-world problems through technolog    y. On my website, you will find my portfolio of projects, as well as my thoughts and insights on the latest developments in the tech industry. Thank you for visiting, and I hop    e you enjoy your stay!" />
-    <meta property="twitter:description" content="Welcome to Ahmed Khaled&#39;s personal website! I am a data engineer and machine learning enthusiast with a passion for solving real-world problems through technolog    y. On my website, you will find my portfolio of projects, as well as my thoughts and insights on the latest developments in the tech industry. Thank you for visiting, and I hop    e you enjoy your stay!" />
+    <meta name="description" content="Vim Tips and tricks">
+    <meta property="og:description" content="Vim Tips and tricks" />
+    <meta property="twitter:description" content="Vim Tips and tricks" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="[Software engineering Machine learning Artificial intelligence Data science Computer science Programming Algorithms Deep learning Neural n    etworks Data analysis]">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Posts | أحمد خالد | Ahmed Khaled Blog</title>
+    <title>Vim Tips | أحمد خالد | Ahmed Khaled Blog</title>
 
-    <link rel="canonical" href="/post/">
+    <link rel="canonical" href="/2023/03/19/vim-tips/">
 
     
     
@@ -151,14 +151,45 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/home-bg-jeep.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/vim-adept.png')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Ahmed Khaled Blog </h1>
-                    
-		    <span class="subheading"></span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/tips" title="Tips">
+                            Tips
+                        </a>
+                        
+                        <a class="tag" href="/tags/vim" title="Vim">
+                            Vim
+                        </a>
+                        
+                    </div>
+                    <h1>Vim Tips</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Ahmed Khaled
+                             
+                            on 
+                            Sunday, March 19, 2023
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -171,19 +202,125 @@
 <article>
     <div class="container">
         <div class="row">
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
 
-         	
+                
+                <h2 id="vim-graphical-cheat-sheet">vim graphical cheat sheet</h2>
+<p>
+  <img src="//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg" alt="">
+
+</p>
+<h2 id="vim-jumps">Vim Jumps</h2>
+<ul>
+<li>^ — Move to start of line</li>
+<li>$ — Move to end of line</li>
+<li>b — Move back a word</li>
+<li>w — Move forward a word</li>
+<li>e — Move to the end of the next word</li>
+<li>Ctrl-o and Ctrl-i to go to the previous/next location you jumped to</li>
+<li>``(two backticks) jump back to where you were</li>
+<li>gi go back to the last place you inserted a text and enter insert mode</li>
+</ul>
+<h2 id="vim-navigations">Vim Navigations</h2>
+<ul>
+<li>{ and } jump paragraph back and forth</li>
+<li>Ctrl-F/B move one screen back and forth</li>
+<li>Search the word under cursor, then n/p to jump to next/previous</li>
+</ul>
+<h2 id="enable-vim-mode-in-bash">Enable Vim mode in bash</h2>
+<p>vi ~/.inputrc
+set editing-mode vi</p>
+<h2 id="enable-system-clipboard-support">Enable system clipboard support</h2>
+<p>See if system clipboard is supported:</p>
+<pre><code>$ vim --version | grep clipboard
+-clipboard       +iconv           +path_extra      -toolbar
++eval            +mouse_dec       +startuptime     -xterm_clipboard
+</code></pre><p>Rinstall vim as vim-gnome:</p>
+<pre><code>sudo apt-get install vim-gnome
+</code></pre><p>Select what you want using the mouse - then type to copy to clipboard:</p>
+<pre><code>&quot;+y
+</code></pre><p>To paste to vim from clipboard type:</p>
+<pre><code>&quot;+p
+</code></pre><h2 id="others">Others</h2>
+<ul>
+<li>Ex: open the current directory</li>
+<li>set number: show line number</li>
+</ul>
+<h2 id="embrace-the-power-of-vim-start-editing-like-a-pro-today">Embrace the Power of Vim: Start Editing Like a Pro Today!</h2>
+<p>Vim may have a steep learning curve, but once you get the hang of it, you&rsquo;ll wonder how you ever worked without it. We hope this cheat sheet and guide have been helpful in getting you started with Vim. Happy editing!</p>
+
+                
+                
+<div class="entry-shang text-center">
+    
+	    <p>「真诚赞赏，手留余香」</p>
+	
+	<button class="zs show-zs btn btn-bred">赞赏支持</button>
+</div>
+<div class="zs-modal-bg"></div>
+<div class="zs-modal-box">
+	<div class="zs-modal-head">
+		<button type="button" class="close">×</button>
+		<span class="author"><a href="https://blog.akhaled.net"><img src="/img/favicon.png" />Ahmed Khaled Blog</a></span>
+        
+	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
+		
+ 
+	</div>
+	<div class="zs-modal-body">
+		<div class="zs-modal-btns">
+			<button class="btn btn-blink" data-num="2">2元</button>
+			<button class="btn btn-blink" data-num="5">5元</button>
+			<button class="btn btn-blink" data-num="10">10元</button>
+			<button class="btn btn-blink" data-num="50">50元</button>
+			<button class="btn btn-blink" data-num="100">100元</button>
+			<button class="btn btn-blink" data-num="1">任意金额</button>
+		</div>
+		<div class="zs-modal-pay">
+			<button class="btn btn-bred" id="pay-text">2元</button>
+			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
+			<img src="/img/reward/wechat-2.png"  id="pay-image"/>
+		</div>
+	</div>
+	<div class="zs-modal-footer">
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
+	</div>
+</div>
+<script type="text/javascript" src="/js/reward.js"></script>
+
+                
+
+                
+
                 
 
 
 
-
             </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
             
             <div class="
                 col-lg-8 col-lg-offset-2
@@ -281,7 +418,7 @@
             
            
                    <li>
-                       <a href='/post/index.xml' rel="alternate" type="application/rss+xml" title="Ahmed Khaled Blog" >
+                       <a href='' rel="alternate" type="application/rss+xml" title="Ahmed Khaled Blog" >
                            <span class="fa-stack fa-lg">
                                <i class="fas fa-circle fa-stack-2x"></i>
                                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
