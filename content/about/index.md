@@ -3,7 +3,7 @@ layout: page
 description: "Welcome to my personal website! I am a software engineer and machine learning enthusiast with a passion for solving real-world problems through technology. On my website, you will find my portfolio of projects, as well as my thoughts and insights on the latest developments in the tech industry. Thank you for visiting, and I hope you enjoy your stay!"
 ---
 
-### About Ahmed Khaled
+### Behind the blog
 
 Hi there! I'm **_Ahmed Khaled_**, a software engineer and machine learning enthusiast with a passion for solving complex problems using technology.
 
@@ -13,7 +13,7 @@ In addition to my technical skills, I also have experience working in the cloud 
 
 When I'm not coding or learning about new technologies, I enjoy spending time with my family, reading a good book, practicing tennis, or going to the gym.
 
-Thanks for stopping by! I hope you enjoy reading my blog and learning more about my work and interests as it grows and evolves.
+Thanks for stopping by! As my blog continues to evolve, I hope you'll join me on this exhilarating journey of discovery and innovation.
 
 # Contact Me
 
