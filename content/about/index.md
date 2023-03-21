@@ -5,7 +5,7 @@ description: "Welcome to my personal website! I am a software engineer and machi
 
 ### Behind the blog
 
-Hi there! I'm **_Ahmed Khaled_**, a software engineer and machine learning enthusiast with a passion for solving complex problems using technology.
+Hi there! I'm **_Ahmed Khaled_**, an electrical engineer and machine learning enthusiast with a passion for solving complex problems using technology.
 
 I'm currently in the process of starting my own personal blog, where I'll be sharing my thoughts and experiences as a software engineer and machine learning enthusiast. I have a strong background in software development, with experience in a variety of languages and frameworks. I'm particularly interested in machine learning and artificial intelligence, and I enjoy exploring new ways to apply these technologies to solve real-world problems.
 
